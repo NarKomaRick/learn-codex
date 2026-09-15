@@ -6,6 +6,14 @@ My AI learning system from this video: [How I Use AI to Learn Things](https://ww
 
 This is a personal system I built for myself, shared as-is. Built as a pi configuration: the teaching philosophy encoded in a skill, a few small extensions, and agent definitions.
 
+## Codex adaptation
+
+This fork adds a Codex-native layer in `.agents/skills/` and `AGENTS.md`. It
+preserves the teaching method, quiz protocol, Obsidian callouts, append-only
+lesson logging, and visual embeds while replacing pi-specific popup tools and
+event hooks with Codex chat and file workflows. The default Obsidian vault
+layout is documented in `AGENTS.md`.
+
 ## What's in it
 
 - `skills/teach/` — the philosophy and the process
